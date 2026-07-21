@@ -1,6 +1,0 @@
-@Chillblast.Interview.API_HostAddress = http://localhost:5028
-
-GET {{Chillblast.Interview.API_HostAddress}}/products/
-Accept: application/json
-
-###

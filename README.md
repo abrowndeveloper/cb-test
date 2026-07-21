@@ -9,6 +9,16 @@ When you're done, please either:
 - Upload your solution to a public GitHub repository and share the link, **or**
 - Zip your solution and send it back via email.
 
+## The task
+
+Using the provided solution, create the following
+
+- A page to list and search for products
+- Basic CRUD around products and/or categories
+- Any validation, error handling, or business rules you think make sense for this kind of data
+
+For the UI, pick whatever you're comfortable with — vanilla JS or a framework.
+
 ## What's provided
 
 This repository is a basic .NET solution containing some seed data and a couple of data entities to get you started. Feel free to change anything to suit your own style of coding — moving files, renaming/restructuring projects, adding packages, etc. is all fair game.
@@ -23,18 +33,6 @@ Requires the .NET SDK matching the target framework in the `.csproj` files.
 dotnet restore
 dotnet run --project Interview.API    # or Interview.Web
 ```
-
-## The task
-
-Using the provided `Product` and `Category` entities (and the seeded data) as your starting point, build out a small solution that demonstrates how you'd approach the problem. There's no fixed set of scenarios to satisfy — what matters is seeing your code and how you think about structuring it. Some ideas of the kind of thing you might build:
-
-- Endpoints/pages to list, filter, or search products (e.g. by category, active status, SKU)
-- Basic CRUD around products and/or categories
-- Any validation, error handling, or business rules you think make sense for this kind of data
-
-Whatever you build can be exposed as API endpoints, MVC pages, or whatever else you prefer.
-
-For the UI, pick whatever you're comfortable with — vanilla JS or a framework.
 
 ## Bonus points
 

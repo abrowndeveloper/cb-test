@@ -14,7 +14,7 @@ When you're done, please either:
 Using the provided solution, create the following
 
 - A page to list and search for products
-- A responsive UI
+- A responsive UI (it does not need to look pretty)
 - A way to view which products come from what category
 - Any validation, error handling, or business rules you think make sense for this kind of data
 
@@ -37,10 +37,10 @@ dotnet run --project Interview.API    # or Interview.Web
 
 ## Bonus points
 
-- Creative or thoughtful features beyond the basics
 - Application resilience
 - Extendability of the design
+- Good programming practices
 
 ## Time limit
 
-**2 hours.** We're far more interested in your approach, code quality, and reasoning than in a fully "complete" feature set — don't feel you need to rush to cover everything above.
+**2 hours.** We're far more interested in your approach, code quality, and reasoning than in a fully "complete" feature set — **don't feel you need to rush to cover everything above**.

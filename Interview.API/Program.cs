@@ -29,6 +29,12 @@ using (IServiceScope scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<InMemDbContext>();
 
+    if (!context.Categories.Any())
+    {
+        context.Categories.AddRange(InitialDataSet.GetCategories());
+        context.SaveChanges();
+    }
+
     if (!context.Products.Any())
     {
         context.Products.AddRange(InitialDataSet.Get());

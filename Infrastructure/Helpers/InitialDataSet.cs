@@ -4,6 +4,15 @@ namespace Infrastructure.Helpers;
 
 public static class InitialDataSet
 {
+    public static IEnumerable<Category> GetCategories() =>
+    [
+        new Category { CategoryId = Guid.Parse("11111111-1111-1111-1111-111111111111"), IsActive = true, Name = "Graphics Cards" },
+        new Category { CategoryId = Guid.Parse("22222222-2222-2222-2222-222222222222"), IsActive = true, Name = "Processors" },
+        new Category { CategoryId = Guid.Parse("33333333-3333-3333-3333-333333333333"), IsActive = true, Name = "Motherboards" },
+        new Category { CategoryId = Guid.Parse("44444444-4444-4444-4444-444444444444"), IsActive = true, Name = "Memory" },
+        new Category { CategoryId = Guid.Parse("55555555-5555-5555-5555-555555555555"), IsActive = true, Name = "Storage" },
+    ];
+
     public static IEnumerable<Product> Get() =>
     [
         new Product { Id = Guid.NewGuid(), Name = "NVIDIA GeForce RTX 4070", Sku = "GPU-4070-NV", IsActive = true, CategoryId = Guid.Parse("11111111-1111-1111-1111-111111111111") },
